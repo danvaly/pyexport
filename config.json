@@ -1,0 +1,36 @@
+{
+  "template": "template.xlsx - template file in xlsx format",
+  "sheetId": "SHEET_ID HERE",
+  "workbook": "TEMPLATE WORKBOOK NAME HERE",
+  "range": "GOOGLE SHEET WORKBOOK!A2:BF100",
+  "map": [
+    {
+      "column": 1,
+      "index": "B7"
+    },
+    {
+      "column": 2,
+      "index": "B8"
+    },
+    {
+      "column": 15,
+      "index": "G26",
+      "format": "substring",
+      "start": 0,
+      "end": 1,
+      "indexCondition": [
+        ["D","B21"],
+        ["O","C21"],
+        ["M","D21"],
+        ["E","E21"]
+      ]
+    },
+    {
+      "column": 15,
+      "index": "F21",
+      "format": "substring",
+      "start": 0,
+      "end": 1
+    }
+  ]
+}
